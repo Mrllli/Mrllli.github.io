@@ -1,13 +1,17 @@
-
 ---
 layout: post
-title: Hello World!
+title: Hydrogen update
 tags: Hydrogen
-stickie: true
 ---
 
-# 这是第一篇博客
+Hydrogen 1.1.0更新
 
-> 你好我的博客
+更新内容
+> 1. 置顶功能
+>
+> 2. 支持MathJax
+>
+> 3. 修复Chrome地址栏主题色不同步问题
 
+现在可以于[主题配置](/config/infor.html)处检查配置项，如配置正确可删除`/config/infor.html`文件
 
