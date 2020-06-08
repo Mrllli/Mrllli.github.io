@@ -1,7 +1,9 @@
+
 ---
-layout:post
-title:Hello MyBlog
-tags:first
+layout: post
+title: Hello World!
+tags: Hydrogen
+stickie: true
 ---
 
 # 这是第一篇博客
