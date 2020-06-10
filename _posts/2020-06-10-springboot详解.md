@@ -48,3 +48,4 @@ tags: springboot
 > 但是在Springboot里`@ComponentScan`被替换成了`@SpringBootApplication`，它位于主应用程序里，它会扫描所有位于主应用程序下方或者同级的包以及子包，因此应该把它放在最外层和其它包处于一层，而它是个.java文件。有了它就可以扫描所有的bean组件，以及使用了
 >
 > 还有一个`@MapperScan`，它是可以扫描所有的mapper类注解，也就是Dao包内的注解，如@param和@return，因此跟`@SpringBootApplication`位于同一.java文件里。与之相关的就是配置文件里还应该配置一个*Dao.java对应\*Dao.xml相关的配置
+
