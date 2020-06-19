@@ -1,7 +1,6 @@
 ---
 layout: post
 title: @Autowired和IOC,监听
-tags: spring
 ---
 
 > **IOC**
