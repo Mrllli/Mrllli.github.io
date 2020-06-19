@@ -1,6 +1,6 @@
 ---
 layout: post
-title: @Autowired和IOC以及监听
+title: @Autowired和IOC,监听
 tags: spring
 ---
 
