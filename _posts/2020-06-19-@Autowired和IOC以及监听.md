@@ -1,6 +1,7 @@
 ---
 layout: post
-title: @Autowired和IOC,监听
+title: IOC监听及自动注入
+tags: spring
 ---
 
 > **IOC**
