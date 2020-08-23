@@ -1,0 +1,6 @@
+---
+layout: post
+title: springboot自动装配原理
+---
+
+> springboot启动的时候会先通过@SpringbootApplication找到@EnableAutoConfiguration,再通过@EnableAutoConfiguration找到spring.factories中所有自动配置类，这些配置类都是以AutoConfiguration结尾命名，加载。然后再通过@ConfigurationProperties注解将.properties与全局配置文件中对应的属性进行绑定。然后AutoConfiguration通过properties获取全剧配置文件中的属性。
